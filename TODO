@@ -1,0 +1,50 @@
+=====================================SPHERES===================================
+
+Spheres can be represented using raytracing and it allows a quite realistic
+sphere.
+
+====================================Triangles==================================
+
+Need to implement tirangles. Currently having a triangle in the file does not
+show it or shows an uniform screen.
+The ipmlementation of triangles is based on planes and smart vector operands
+usage. 
+
+==================================Intersection=================================
+
+Intersection is a special type of shape that consists of the two common parts of
+2 different shapes for example the intersection of a plane and a sphere is a
+circle along with the other composite structures we plan to ipmlement them.
+
+=====================================Union=====================================
+
+Union consists of the union of 2 structures this behaviour is quite similar to
+the intersection.
+
+===================================Difference==================================age
+of the higer definition pixels:
+the difference consists of the difference of 2 structures it allows to
+"subtract" shapes to others.
+
+===============================Specular lighting===============================
+
+Specular lighting is the local effect of shine that can be seen onto some
+surfaces.
+It can be computed along the directional lighting and seen as a filter that is
+added on top of the actual picture.
+
+===================================Reflection==================================
+
+Reflection involves recursion from the function that computes the color of a
+pixel. thus reflexion can bring a heavy load on some computers.
+
+=================================Phong shading=================================
+
+Phong shading consists of a combination of all the previous lighting methods to
+give a more realistic overall look.
+
+=================================Anti aliasing=================================
+
+Due to the the mapping of our pixels we planned to create an anti aliased mask 
+We would have implemented a more precise picture and then created pixels making
+the average of the higer definition pixels:

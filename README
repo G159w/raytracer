@@ -1,0 +1,27 @@
+==================================INTRODUCTION=================================
+
+The programm created here consists of a raytracer it's main goal is to create a
+picture from a scene described in a file.
+
+The principle behind the raytracer is to create a ray of light using the fact
+that a ray of light can always be traveled both ways.
+During the process of creating an image each pixel is linked with a ray of light
+and we define the color of this light based on it's intersections or reflections
+onto objects of the scene.
+
+The basic mapping of pixel is done beforehand and we keep a matrix of pixels to
+print at the end of the program.
+
+To check if an object intersects with the ray we need to create functions that
+compute the solutions of systems such as the intersection of a plane and a line
+or a line and a sphere.
+
+We also need to compute the different lights sources that light up a point.
+
+=====================================USAGE====================================
+
+use 'make' to create a binary file named rt.
+"./rt input.in output.ppmi"
+
+you can also use 'make check' to create basic exemple of 3D pictures that will
+be create in the 'output' dir at the root of this directory.
