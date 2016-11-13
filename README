@@ -1,5 +1,6 @@
 ==================================INTRODUCTION=================================
 
+
 The programm created here consists of a raytracer it's main goal is to create a
 picture from a scene described in a file.
 
@@ -18,10 +19,12 @@ or a line and a sphere.
 
 We also need to compute the different lights sources that light up a point.
 
+
 =====================================USAGE====================================
 
+
 use 'make' to create a binary file named rt.
-"./rt input.in output.ppmi"
+"./rt input.in output.ppm"
 
 you can also use 'make check' to create basic exemple of 3D pictures that will
 be create in the 'output' dir at the root of this directory.
