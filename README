@@ -1,4 +1,27 @@
-==================================INTRODUCTION=================================
+==================================== GOAL ====================================
+
+
+We had to implement a raytracer by using all we had learned in C. In this 
+project, we can only use the C standard library.
+we had to render scenes described in an input file and save the result in 
+a PPM image. The format will be extended stage by stage when needed.
+A consequent part of our final mark will depend on our defense: quality 
+of produced images, code quality and software architecture.
+The project is divided into several stages, however these are only guidelines 
+and some parts are independent.
+
+
+==================================== USAGE ===================================
+
+
+use 'make' to create a binary file named rt.
+"./rt input.in output.ppm"
+
+you can also use 'make check' to create basic exemple of 3D pictures that will
+be create in the 'output' dir at the root of this directory.
+
+
+================================= DESCRIPCTION ================================
 
 
 The programm created here consists of a raytracer it's main goal is to create a
@@ -18,13 +41,3 @@ compute the solutions of systems such as the intersection of a plane and a line
 or a line and a sphere.
 
 We also need to compute the different lights sources that light up a point.
-
-
-=====================================USAGE====================================
-
-
-use 'make' to create a binary file named rt.
-"./rt input.in output.ppm"
-
-you can also use 'make check' to create basic exemple of 3D pictures that will
-be create in the 'output' dir at the root of this directory.
